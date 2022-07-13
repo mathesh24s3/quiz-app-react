@@ -1,0 +1,55 @@
+* {
+  font-family: "Karla", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body,
+#root {
+  height: 90%;
+  width: 99%;
+  background-color: #F5F7FB;
+}
+
+main {
+  height: 100%;
+  margin: 0;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.page--title {
+  font-size: 2rem;
+  color: #293264;
+}
+
+.btn {
+  width: 12rem;
+  padding-block: 1rem;
+  border-radius: 15px;
+  border: none;
+  background-color: #4D5B9E;
+  color: white;
+  font: inherit;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.check--ans {
+  text-align: center;
+}
+
+.check--ans p {
+  color: #293264;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
